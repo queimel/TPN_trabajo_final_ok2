@@ -186,6 +186,7 @@
             this.b_cerrar.TabIndex = 14;
             this.b_cerrar.Text = "Cerrar";
             this.b_cerrar.UseVisualStyleBackColor = true;
+            this.b_cerrar.Click += new System.EventHandler(this.b_cerrar_Click);
             // 
             // l_mensajes
             // 

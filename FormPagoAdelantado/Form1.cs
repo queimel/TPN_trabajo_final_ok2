@@ -146,5 +146,10 @@ namespace FormPagoAdelantado
 
             }
         }
+
+        private void b_cerrar_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }
